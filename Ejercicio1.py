@@ -9,3 +9,4 @@ print (type(age))
 base = float(input ("Ingresa el valor de la base: "))
 altura = float(input("Ingresa el valor de la altura: "))
 area = print (base*altura/2)
+#Ahora esto
