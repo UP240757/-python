@@ -1,6 +1,9 @@
 age = 18 
-print (age)
-print (type(age))
+hight = 1.65
+numcom = 8j
+print (type(age), age)
+print (type(hight), hight)
+print (type(numcom))
 
 #Program 4
 # Write a script that prompts the user to enter base and height 
@@ -8,5 +11,5 @@ print (type(age))
 # (area = 0.5 x b x h). 
 base = float(input ("Ingresa el valor de la base: "))
 altura = float(input("Ingresa el valor de la altura: "))
-area = print (base*altura/2)
+area = print ("El area del triangulo es: ", base*altura/2)
 #Ahora esto
