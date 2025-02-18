@@ -12,4 +12,8 @@ print (type(numcom), numcom)
 base = float(input ("Ingresa el valor de la base: "))
 altura = float(input("Ingresa el valor de la altura: "))
 area = print ("El area del triangulo es: ", base*altura/2)
+
 #Ahora esto
+# Write a script that prompts the user to enter side a, side b, and side c of the triangle. 
+#  Calculate the perimeter of the triangle (perimeter = a + b + c).
+sideA = 2 
