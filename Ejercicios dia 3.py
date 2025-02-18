@@ -3,7 +3,7 @@ hight = 1.65
 numcom = 8j
 print (type(age), age)
 print (type(hight), hight)
-print (type(numcom))
+print (type(numcom), numcom)
 
 #Program 4
 # Write a script that prompts the user to enter base and height 
