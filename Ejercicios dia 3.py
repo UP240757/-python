@@ -20,3 +20,30 @@ sideA = float (input("Ingresar el valor de sideA"))
 sideB = float (input("Ingresar el valor de sideB"))
 sideC = float (input('Ingresar el valor de sideC'))
 perimeter= print ("El valor del perimetro del triangulo es:", sideA + sideB + sideC )
+
+#Get length and width of a rectangle using prompt.
+#  Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
+largo = float (input("ingresa el largo del rectangulo"))
+ancho = float(input("ingresa el ancho del triangulo"))
+Area = print("El area del triangulo es de:", largo * ancho)
+perimeter = print("El perimetro del triangulo es de:",2 * (largo + ancho))
+
+#Get radius of a circle using prompt.
+#  Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
+pi = 3.14
+r = float (input("ingresa el valor del radio"))
+Area = print("El area del circulo es de :", pi * r * r )
+circunferencia = print("La circunferencia del circulo es de :", 2 * pi * r)
+
+#Calculate the slope, x-intercept and y-intercept of y = 2x -2
+pendiente = 2
+interceptY = -2
+interceptX = interceptY / pendiente
+print("la pendiente de la recta es de :", pendiente)
+print("La interseccion en el eje Y es:", interceptY)
+print(" La interseccion en el eje X es:", interceptX)
+
+#Slope is (m = y2-y1/x2-x1).
+# Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+point1 = (2, 2)
+point2 = (6, 10)
