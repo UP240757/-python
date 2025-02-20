@@ -16,4 +16,7 @@ area = print ("El area del triangulo es: ", base*altura/2)
 #Ahora esto
 # Write a script that prompts the user to enter side a, side b, and side c of the triangle. 
 #  Calculate the perimeter of the triangle (perimeter = a + b + c).
-sideA = 2 
+sideA = float (input("Ingresar el valor de sideA")) 
+sideB = float (input("Ingresar el valor de sideB"))
+sideC = float (input('Ingresar el valor de sideC'))
+perimeter= print ("El valor del perimetro del triangulo es:", sideA + sideB + sideC )
