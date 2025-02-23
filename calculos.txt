@@ -1,0 +1,2 @@
+Pendiente (m) = 2.0
+Distancia Euclidiana = 8.94427190999916
