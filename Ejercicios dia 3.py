@@ -51,7 +51,48 @@ x2, y2 = (6,10)
 slope = (y2 - y1) / (x2 - x1)
 print("La pendiente (m) es:, " "slope")
 distancia = (math.sqrt(x2 - x1) ** 2 + (y2-y1) ** 2)
-print("la distancia euclinada es:""(slope)")
+print("la distancia euclinada es:", distancia)
+
 
 #Compara el slope del ejercico 8 y 9.
+
+
+
+
+
+
+
+
+
+
+
+
+#Calculate the value of y (y = x^2 + 6x + 9).
+#Try to use different x values and figure out at what x value y is going to be 0.
+# Definir la función
+x= int(input("Ingresar el valor de x:" ))
+y= ((x**2)+(6*x)+9)
+print ("El valor de y es :", " ", y)
+if y==0: 
+    print ("y es igual a 0.")
+else: 
+    print ("y no es igual a 0.")
+
+
+#Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+lenght1='python'
+lenght2= 'dragon'
+
+longitud1 = len (lenght1)
+longitud2 = len (lenght2)
+print(f"la longitud de lenght1 es:", longitud1)
+print(f"la longitud de lenght2 es:", longitud2)
+print("la longitud de 'python' es mayor que la longitud de 'dragon':", lon)
+
+
+
+
+
+
+
 
