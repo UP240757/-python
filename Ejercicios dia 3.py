@@ -52,3 +52,6 @@ slope = (y2 - y1) / (x2 - x1)
 print("La pendiente (m) es:, " "slope")
 distancia = (math.sqrt(x2 - x1) ** 2 + (y2-y1) ** 2)
 print("la distancia euclinada es:""(slope)")
+
+#Compara el slope del ejercico 8 y 9.
+
