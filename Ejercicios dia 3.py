@@ -55,6 +55,8 @@ print("la distancia euclinada es:", distancia)
 
 
 #Compara el slope del ejercico 8 y 9.
+x1, y1 = (2, 2)
+x2, y2 = (6, 10)
 
 
 
@@ -80,14 +82,21 @@ else:
 
 
 #Find the length of 'python' and 'dragon' and make a falsy comparison statement.
-lenght1='python'
-lenght2= 'dragon'
+# Finding the length of 'python' and 'dragon'
+length_python = len('python')
+length_dragon = len('dragon')
+print("Length of python:", length_python )
+print("Length of dragon:", length_dragon)
+#falsa comparacion 
+print("length of python is not equal to length of dragon:", length_python!= length_dragon )
 
-longitud1 = len (lenght1)
-longitud2 = len (lenght2)
-print(f"la longitud de lenght1 es:", longitud1)
-print(f"la longitud de lenght2 es:", longitud2)
-print("la longitud de 'python' es mayor que la longitud de 'dragon':", lon)
+#Use and operator to check if 'on' is found in both 'python' and 'dragon'
+
+
+
+
+
+
 
 
 
