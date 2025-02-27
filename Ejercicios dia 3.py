@@ -55,8 +55,10 @@ print("la distancia euclinada es:", distancia)
 
 
 #Compara el slope del ejercico 8 y 9.
+#ejercicio 8.
 x1, y1 = (2, 2)
 x2, y2 = (6, 10)
+
 
 
 
@@ -91,6 +93,28 @@ print("Length of dragon:", length_dragon)
 print("length of python is not equal to length of dragon:", length_python!= length_dragon )
 
 #Use and operator to check if 'on' is found in both 'python' and 'dragon'
+
+cadena1 = "pyton"
+cadena2 = "dragon"
+resultado = ("on" in cadena1 and "on" in cadena2) 
+print (resultado) 
+
+#I hope this course is not full of jargon.
+#  Use in operator to check if jargon is in the sentence.
+sentence = "jargon"
+resultado = ("jargon" in sentence)
+print(resultado)
+
+#There is no 'on' in both dragon and python.
+cadena1 = "dragon"
+cadena2= "python"
+resultado = ("no 'on' " in cadena1 and " no 'on'" in cadena2 )
+print (resultado)
+
+#Find the length of the text python and convert the value to float and convert it to string.
+
+
+
 
 
 
